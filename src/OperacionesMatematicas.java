@@ -22,6 +22,9 @@ public class OperacionesMatematicas {
     
     public float division(float dividendo, float divisor)
     {
+        if(divisor == 0)
+            throw new IllegalArgumentException("¡No se puede dividir por 0!");
+            
         return dividendo / divisor;
     }
     
