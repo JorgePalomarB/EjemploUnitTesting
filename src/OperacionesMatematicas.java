@@ -20,9 +20,9 @@ public class OperacionesMatematicas {
         return multiplicando * multiplicador;
     }
     
-    public float division(float num1, float num2)
+    public float division(float dividendo, float divisor)
     {
-        return num1 / num2;
+        return dividendo / divisor;
     }
     
 }
